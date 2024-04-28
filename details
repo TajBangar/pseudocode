@@ -1,0 +1,35 @@
+# Prompt the user to input their name
+# Use the input() function to capture the user's name 
+# Store the input in a variable called 'name' 
+
+# Prompt the user to input their age
+# Use the input() function to capture the user's age input
+# Store the input in a variable called 'age'
+
+# Prompt the user to input their house number
+# Use the input() function to capture the user's house number
+# Store the input in a variable called 'house_number'
+
+# Prompt the user to input their street name
+# Use the input() function to capture the user's street name
+# Store the input in a variable called 'street_name'
+
+# Construct a sentence containing all the user details
+# Use the string format to create the sentence 
+# Format the sentence to include the user's name, age, house number and street name.
+
+# Print out the sentence containing all the user's details
+# Use the print() function to display the user detail's sentence
+
+
+name = input("Please enter your name: ")
+
+age = input("Please enter your age: ")
+
+house_number = input("Please enter your house number: ")
+
+street_name = input("Please enter your street name: ")
+
+user_details_sentence = "This is {}. He is {} years old and lives at house number {} on {}".format(name, age, house_number, street_name)
+
+print(user_details_sentence)
