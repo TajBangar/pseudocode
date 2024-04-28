@@ -1,0 +1,32 @@
+# Promote the user to input their name 
+# Use the input() function to capture the user's input
+# Store the input in a variable called 'name'
+
+# Print he name entered by the user
+# Use the print() function to display the name entered by the user
+
+# Prompt the user to input their age 
+# Use the input() function to capture the user's input
+# Store the input in a variable called 'age'
+
+# Print the age entered by the user
+# Use the print() function to display the age entered by the user
+
+# Print "Hello World!" on a new line
+# Use the print() function to display "Hello World!" 
+
+
+# Prompt the user to input their name
+name = input("Please enter your name: ")
+
+# Print the name entered by the user
+print("Your name is:", name)
+
+# Prompt the user to input their age
+age = input("Please enter your age: ")
+
+# Print the age entered by the user
+print("Your age is:", age)
+
+# Print "Hello World!" on a new line
+print("Hello World!")
